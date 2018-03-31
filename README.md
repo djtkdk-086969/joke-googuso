@@ -1,2 +1,22 @@
-# joke-googuso
-Two-hour suspense dramas on Google Search (April Fools' Day Joke)
+仕様サスペンス劇場
+==================
+
+Google の「未指定」を検出すると音を鳴らすジョークアドオン
+
+## 概要
+*これはエイプリルフールネタです。*
+
+Googleの検索語句無視（未指定：）を検出すると音を鳴らします。
+
+鳴らしたい音声ファイルは、アドオンとして発行する前に
+`resources` フォルダの中に `killed.mp3` という名前で置いてください。
+
+## これなら多分動くシステム要件
+* Mozilla Firefox
+* Google Chrome
+
+## ライセンス
+MIT License
+
+## 作者
+[迷惑機能が大嫌いなたかだか。](https://twitter.com/djtkdk_086969)
