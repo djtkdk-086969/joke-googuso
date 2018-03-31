@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "version": "0.1",
+    "name": "仕様サスペンス劇場",
+    "description": "Google の「未指定」を検出すると、某サスペンスドラマのアイキャッチを流すジョークプログラムです。",
+    "author": "迷惑機能が大嫌いなたかだか。 (@djtkdk_086969)",
+    "background": {
+        "scripts": [
+            "bg/bg.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.google.com/*", "*://www.google.co.jp/*"],
+            "exclude_globs": ["*tbm=shop*", "*tbm=vid*"],
+            "js": ["page/workers/google.js"],
+            "css": ["page/page.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": ["storage"],
+    "web_accessible_resources": [
+      "resources/killed.mp3"
+    ]
+}

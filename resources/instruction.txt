@@ -1,0 +1,2 @@
+鳴らしたい音声ファイルを killed.mp3 という名前で置いてください。
+Place an audio file you want to be played with a filename "killed.mp3".
